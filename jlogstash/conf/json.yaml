@@ -1,0 +1,9 @@
+inputs:
+    - Stdin:
+
+filters:
+    - Json
+        fields: ["message":""]
+outputs:
+    - Stdout:
+        codec: json_lines

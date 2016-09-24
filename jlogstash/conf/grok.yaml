@@ -1,0 +1,10 @@
+inputs:
+    - Stdin:
+
+filters:
+    - JGrok:
+        srcs: ["message"]
+        patterns: {"%{COMBINEDAPACHELOG}":""}
+outputs:
+    - Stdout:
+        codec: json_lines
