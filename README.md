@@ -11,5 +11,5 @@ java logstash和 ruby logstash 做一个对比(4cores 4g 虚拟机)
 |rubylogstash	|json	|4(默认cpu核数)	|260%	       |json 字符串     |1000w   |1504s|
 |java logstash	|json	|4(默认cpu核数)	|310%	       |json 字符串     |1000w   |603s|
 
-以上三种场景的处理效率，javalogstash是rubylogstash的倍数分别是2.99  4.15  2.49
+以上三种场景的处理效率，javalogstash是rubylogstash的倍数分别是2.99倍  4.15倍  2.49倍
 
